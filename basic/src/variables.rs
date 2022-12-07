@@ -1,4 +1,3 @@
-
 /// .
 pub fn main() {
     // mutable variable without type
@@ -68,7 +67,7 @@ pub fn main() {
     let (_name, _population, _gdp) = tuple1;
     let _uk = tuple1.1;
 
-    // array 
+    // array
     let error_codes = [404, 500, 200];
     let _not_found = error_codes[0];
     // let out_of_bounds = error_codes[4]; // arrays are fixed length

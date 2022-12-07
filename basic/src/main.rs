@@ -1,14 +1,12 @@
-
-mod variables;
 mod control_flow;
+mod variables;
 
 fn main() {
     variables::main();
     control_flow::main();
-    
+
     function(1);
     function_that_returns_value(2);
-
 }
 
 fn function(x: u128) {
