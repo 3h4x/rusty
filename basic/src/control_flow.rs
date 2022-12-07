@@ -2,10 +2,11 @@ pub fn main() {
     let condition = true;
     let number = if condition { 5 } else { 6 };
 
-    loop {
-        println!("loop!");
-        break;
-    }
+    //   = note: `#[deny(clippy::never_loop)]` on by default
+    // loop {
+    //     println!("loop!");
+    //     break;
+    // }
 
     let mut counter = 0;
     let result = loop {

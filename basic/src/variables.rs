@@ -1,3 +1,4 @@
+
 /// .
 pub fn main() {
     // mutable variable without type
@@ -48,8 +49,8 @@ pub fn main() {
     let _div1 = 4 / 5;
     let _div2 = 4.1 / 5.1;
 
-    let _reminder1 = 4 % 5;
-    let _reminder2 = 4.1 % 5.1;
+    let _reminder1 = 5 % 4;
+    let _reminder2 = 8.1 % 5.1;
 
     // bool https://doc.rust-lang.org/book/ch03-02-data-types.html#the-boolean-type
     let _b1 = true;
